@@ -1,8 +1,8 @@
 fuel-plugin-nfs-custom:
   # Role name
-  name: "Set here the name for the role. This name will be displayed in the Fuel web UI"
+  name: "Custom nfs server"
   # Role description
-  description: "Write description for your role"
+  description: "Desc for NFS server"
   # If primaty then during orchestration this role will be
   # splitted into primary-role and role
   has_primary: false

@@ -1,7 +1,7 @@
 attributes:
-  fuel-plugin-nfs-custom_text:
-    value: 'Set default value'
-    label: 'Text field'
-    description: 'Description for text field'
+  export_dir:
+    value: '/srv/nfs'
+    label: 'Export path'
+    description: 'Directory which will be exported to use as a cinder backend'
     weight: 25
     type: "text"
